@@ -1,0 +1,30 @@
+Data not included in this dir.
+
+Data can be downloaded from
+https://www.kaggle.com/mmoreaux/audio-cats-and-dogs
+
+
+I stored the data in the following way:
+
+./Data_cats_dogs/
+Test/	Train/
+
+	./Data_cats_dogs/Test/:
+	Cat/	Dog/
+
+
+	./Data_cats_dogs/Train/:
+	Cat/	Dog/
+
+
+		./Data_cats_dogs/Train/Cat/
+		cat*.wav
+
+		./Data_cats_dogs/Train/Cat/
+		dog*.wav
+
+		./Data_cats_dogs/Test/Cat/
+		cat*.wav
+		
+		./Data_cats_dogs/Test/Dog/
+		dog*.wav
